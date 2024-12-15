@@ -1535,9 +1535,6 @@ async def broadcast_message(client, message):
         except:
             pass
 
-    
-    
-
     # Bot broadcasting to users
     if "-user" in message.text:
         susr = 0
